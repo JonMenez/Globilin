@@ -10,7 +10,7 @@ const Sponsors = () => {
       </h2>
       <ul className="sponsors__list">
         {brands.map(({ src, alt }) => (
-          <li className="sponsors__items">
+          <li key={src} className="sponsors__items">
             <img src={src} alt={alt} />
           </li>
         ))}
