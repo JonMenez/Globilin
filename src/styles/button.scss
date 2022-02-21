@@ -1,7 +1,9 @@
+@import 'vars';
+
 .button {
     display: block;
     padding: .5rem 3rem;
-    background-color: #FF6961;
+    background-color: $primary;
     color: #fff;
     font-size: 1.25rem;
     border-radius: 25px;
