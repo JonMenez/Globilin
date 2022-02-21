@@ -8,6 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
     publicPath: "/",
+    assetModuleFilename: "images/[hash][ext][query]",
   },
   mode: "development",
   resolve: {
@@ -45,7 +46,7 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
         type: "asset",
       },
     ],
