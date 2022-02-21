@@ -1,0 +1,23 @@
+.navBar {
+    height: 100%;
+    width: 350px;
+    margin-right: 3rem;
+    background-color: transparent;
+    z-index: 2;
+    
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        background-color: transparent;
+    }
+
+    &__links {
+        color: #fff;
+    }
+
+    
+}

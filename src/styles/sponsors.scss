@@ -1,0 +1,25 @@
+
+
+.sponsors {
+    text-align: center;
+
+    &__title{
+        margin-bottom: 2rem;
+        position: relative;
+        bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        // flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+
+    &__items {
+        margin: 2rem;
+    }
+}
