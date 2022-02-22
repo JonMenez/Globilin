@@ -3,6 +3,7 @@
    background: linear-gradient(109.77deg, #E7CEE3 5.92%, #E7CEE3 34.66%, rgba(231, 206, 227, 0.5) 58.17%, rgba(231, 206, 227, 0.2) 83%);
    margin: auto;
    padding-bottom: 2rem;
+   padding-top: 1rem;
 
    &__container {
        position: relative;
@@ -21,10 +22,6 @@
        position: absolute;
        top: 0;
        right: 0;
-
-       img {
-        filter: drop-shadow( .3em .2em  .5em );
-      }
    }
 
    &__text {
