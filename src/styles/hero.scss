@@ -2,18 +2,33 @@
    width: 100%;
    background: linear-gradient(109.77deg, #E7CEE3 5.92%, #E7CEE3 34.66%, rgba(231, 206, 227, 0.5) 58.17%, rgba(231, 206, 227, 0.2) 83%);
    margin: auto;
+   padding-bottom: 2rem;
 
    &__container {
+       position: relative;
        display: flex;
        justify-content: space-between;
        align-items: center;
        width: 90%;
+       height: 620px;
        max-width: 1440px;
        margin: auto;
+       padding: 3rem 0;
    }
 
    &__img {
        flex-shrink: 0;
+       position: absolute;
+       top: 0;
+       right: 0;
+
+       img {
+        filter: drop-shadow( .3em .2em  .5em );
+      }
+   }
+
+   &__text {
+       width: 40%;
    }
 
    &__title {
