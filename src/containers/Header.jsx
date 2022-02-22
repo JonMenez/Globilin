@@ -6,8 +6,10 @@ import "@styles/header.scss";
 const Header = () => {
   return (
     <header className="header">
-      <Logo />
-      <NavBar />
+      <div className="header__container">
+        <Logo />
+        <NavBar />
+      </div>
     </header>
   );
 };

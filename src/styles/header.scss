@@ -1,10 +1,16 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 4.5rem;
+    height: 5rem;
     background: linear-gradient(109.77deg, #E7CEE3 5.92%, #E7CEE3 34.66%, rgba(231, 206, 227, 0.5) 58.17%, rgba(231, 206, 227, 0.2) 83%);
-    max-width: 1440px;
     margin: auto;
+    
+    &__container {
+        max-width: 1440px;
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+       
+    }
     
 }
