@@ -2,13 +2,13 @@
 
 .sponsors {
     text-align: center;
+    margin: auto;
     margin-bottom: 5rem;
-    max-width: 1440px
+    max-width: 1440px;
 
     &__title{
+        margin-top: 4rem;
         margin-bottom: 2rem;
-        position: relative;
-        bottom: 1rem;
         font-size: 2rem;
     }
 
