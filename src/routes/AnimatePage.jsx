@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Layout from "@containers/Layout";
 import Home from "@pages/Home";
+import ProductsPage from "../pages/ProductsPage";
 
 const AnimatePage = () => {
   const location = useLocation();
@@ -15,11 +16,8 @@ const AnimatePage = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<div>Quienes Somos</div>} />
-            <Route path="products" element={<div>Productos</div>} />
-            <Route
-              path="products/categories"
-              element={<div>Categoria 1</div>}
-            />
+            <Route path="products" element={<ProductsPage />} />
+            <Route path="products/:name" element={<div>Categoria 1</div>} />
             <Route path="contact" element={<div>Contacto</div>} />
             <Route path="*" element={<div>Error 404</div>} />
           </Route>
